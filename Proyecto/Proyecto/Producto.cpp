@@ -1,3 +1,4 @@
+#pragma once
 #include "Producto.h"
 
 Producto::Producto(){
@@ -10,10 +11,12 @@ Producto::Producto(){
 	limite = 0;
 	// Asociacion a Fecha
 	fechaPtr = new Fecha();
+	cat = new Categoria;
 }
 Producto::Producto(string cod, string nomC, string des, double preC, int ex, int lim, Fecha* fecha) : 
 codigo(cod), nombre_Comercial(nomC), descripcion(des), precio_Costo(preC), existencia(ex), limite(lim), fechaPtr(fecha) {
 	categoria = "???";
+	cat = new Categoria;
 }
 Producto:: ~Producto(){ if (fechaPtr) delete fechaPtr; }
 
@@ -34,3 +37,8 @@ void Producto::setCategoria(string nuevaCategoria) { categoria = nuevaCategoria;
 void Producto::setExistencia(int nuevaExistencia) { existencia = nuevaExistencia; }
 void Producto::setLimite(int nuevolimite) { limite = nuevolimite; }
 void Producto::setFecha_Ingresada(Fecha* nuevaFecha) { fechaPtr = nuevaFecha; }
+
+
+double Producto::obtenerPorcentajeGanancia() {
+	return precio_Costo * cat->porceGanancia(categoria);
+}

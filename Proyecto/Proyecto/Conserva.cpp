@@ -19,6 +19,7 @@ string Conserva::toString(){
 		<< "Existencias       : " << existencia << endl
 		<< "Limite Existencias: " << limite << endl
 		<< "Fecha de Ingreso  : " << fechaPtr->mostrar_Fecha() << endl
+		<< "Porcentaje Ganancia: " << this->obtenerPorcentajeGanancia() << endl
 		<< "========================================" << endl;
 		return salida.str();
 }

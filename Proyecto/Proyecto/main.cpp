@@ -24,7 +24,7 @@ int main() {
 	cout << "Ingrese el dia de introduccion del producto   : "; cin >> d2;
 	cout << "Ingrese el mes de introduccion del producto   : "; cin >> m2;
 	cout << "Ingrese el anio de introduccion del producto  : "; cin >> a2;
-	Fecha* ingreso1 = new Fecha(d, m, a);
+	Fecha* ingreso1 = new Fecha(d2, m2, a2);
 	system("cls");
 
 	int d1 = 0, m1 = 0, a1 = 0;

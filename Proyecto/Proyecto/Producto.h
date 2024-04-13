@@ -1,5 +1,6 @@
 #pragma once
 #include "Fecha.h"
+#include "Categoria.h"
 
 using namespace std;
 
@@ -14,6 +15,7 @@ protected:
 	int limite;
 	// Asociacion a Fecha
 	Fecha* fechaPtr;
+	Categoria* cat; // Inicio de Relacion de Uso para el metodo porceGanancia...
 public:
 	Producto();
 	Producto(string, string, string, double, int, int, Fecha*);
@@ -37,6 +39,8 @@ public:
 	void setExistencia(int);
 	void setLimite(int);
 	void setFecha_Ingresada(Fecha*);
+
+	double obtenerPorcentajeGanancia();
 
 	virtual string toString() = 0;
 
