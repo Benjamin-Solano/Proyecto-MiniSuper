@@ -40,5 +40,5 @@ void Producto::setFecha_Ingresada(Fecha* nuevaFecha) { fechaPtr = nuevaFecha; }
 
 
 double Producto::obtenerPorcentajeGanancia() {
-	return precio_Costo * cat->porceGanancia(categoria);
+	return this->getPrecio_Costo() * cat->porceGanancia(this->categoria);
 }
