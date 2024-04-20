@@ -1,17 +1,19 @@
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Abarrote.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Abarrote.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Carne.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Carne.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Categoria.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Categoria.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Cliente.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Cliente.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Conserva.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Conserva.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\DecAbarrote.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\DecAbarrote.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\DecConserva.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\DecConserva.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\DecEmbutido.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\DecEmbutido.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Embutido.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Embutido.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Empaque.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Empaque.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Fecha.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Fecha.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\main.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\main.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Perecedero.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Perecedero.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Producto.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Producto.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\ProductoPerecedero.h;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\ProductoPerecedero.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Producto_Perecedero.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Producto_Perecedero.obj
-C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\Venta.cpp;C:\Users\user\Desktop\Proyecto MiniSuper\Proyecto\Proyecto\x64\Debug\Venta.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Abarrote.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Abarrote.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Carne.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Carne.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Categoria.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Categoria.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Cliente.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Cliente.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Conserva.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Conserva.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\DecAbarrote.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\DecAbarrote.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\DecConserva.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\DecConserva.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\DecEmbutido.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\DecEmbutido.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Embutido.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Embutido.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Empaque.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Empaque.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Fecha.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Fecha.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\main.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\main.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\MiniSuper.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\MiniSuper.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Perecedero.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Perecedero.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Producto.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Producto.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\ProductoPerecedero.h;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\ProductoPerecedero.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Producto_Perecedero.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Producto_Perecedero.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Venta.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Venta.obj
+C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\Vista.cpp;C:\Users\lesbe\source\repos\Proyecto-MiniSuper\Proyecto\Proyecto\x64\Debug\Vista.obj

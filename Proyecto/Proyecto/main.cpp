@@ -16,9 +16,13 @@
 #include "Venta.h"
 #include "Cliente.h"
 
+// INCLUDE DE LISTA GENERICA	
+#include "ContenedorT.h"
+// INCLUDE DE MINISUPER 
+#include"MiniSuper.h"
+
 
 int main() {
-
 
 	// TEST #1 Probando Objetos directamente la herencia de PRODUCTO (Parte #1)
 	////Prueba de objetos... PRODUCTO CONSERVA #2
@@ -102,7 +106,28 @@ int main() {
 	Venta* venta = new Venta(customer, f10, L_Sardina);
 
 	cout << venta->toString() << endl;
+	system("pause");
+	system("cls");
+	// Lista de ventas
+	cout << "Creando listas: " << endl;
+	ContenedorT<Venta>* contVentas = new ContenedorT<Venta>;
+	contVentas->ingresaElemento(venta);
 
+	cout << contVentas->display();
+	system("pause");
+	system("cls");
+
+	// Creando productos de por ahí sisi
+	Producto* sarshisha = new Embutido("000", "Salchicha Rusa", "2 Salchichas", 1300.0, 10, 10, f8, false, 500.0, v2, "TenryuBito", "Pregunton", "Danken", emp);
+	Producto* cosita = new Abarrote("001", "Lata de Sardina", "350g de Sardina", 1900.0, 2, 10, f7, true, 450.0, v1, "Sardimar");
+	// Lista de productos 
+	cout << "Creando lista de productos" << endl;
+	ContenedorT<Producto>* contProductos = new ContenedorT<Producto>;
+	contProductos->ingresaElemento(sarshisha);
+	contProductos->ingresaElemento(cosita);
+	cout << "Mostrando lista de productos" << endl;
+	cout << contProductos->display() << endl;
+	system("pause");
 
 	system("pause > 0");
 }

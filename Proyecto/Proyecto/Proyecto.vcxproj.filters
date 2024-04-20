@@ -13,110 +13,158 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\Decorador">
+      <UniqueIdentifier>{1f6a6d3c-3191-45cc-9ef4-723ce6343cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ProductosDelegate">
+      <UniqueIdentifier>{5c4c16ac-9cc4-408e-92e7-d0be24078722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Clases Pequeñas">
+      <UniqueIdentifier>{d8b50328-6c49-45a2-9c14-571a454b1424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Contenedores">
+      <UniqueIdentifier>{1dac92f3-fef1-481e-ad4c-f4869df3f83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Decorador">
+      <UniqueIdentifier>{83916d73-9c3e-42ec-b332-680949ca27b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Clases Pequeñas">
+      <UniqueIdentifier>{ed8254ce-821c-4e23-8201-6d957e6e8b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Productos Delegate">
+      <UniqueIdentifier>{9193f7bc-228c-4883-afda-f0a8bdeb3ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\VistaUsuario">
+      <UniqueIdentifier>{9e469af5-4960-4ae4-ba05-f00edfac4c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\VistaUsuario">
+      <UniqueIdentifier>{25dcae02-448a-4431-9649-bda81990661d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Fecha.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Producto.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Conserva.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="ProductoPerecedero.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClCompile>
-    <ClCompile Include="Producto_Perecedero.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Perecedero.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Abarrote.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Carne.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Empaque.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Embutido.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Categoria.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de encabezado\ProductosDelegate</Filter>
     </ClCompile>
     <ClCompile Include="DecAbarrote.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Decorador</Filter>
     </ClCompile>
     <ClCompile Include="DecConserva.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Decorador</Filter>
     </ClCompile>
     <ClCompile Include="DecEmbutido.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Decorador</Filter>
+    </ClCompile>
+    <ClCompile Include="Categoria.cpp">
+      <Filter>Archivos de origen\Clases Pequeñas</Filter>
     </ClCompile>
     <ClCompile Include="Cliente.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Clases Pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Empaque.cpp">
+      <Filter>Archivos de origen\Clases Pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Fecha.cpp">
+      <Filter>Archivos de origen\Clases Pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Perecedero.cpp">
+      <Filter>Archivos de origen\Clases Pequeñas</Filter>
     </ClCompile>
     <ClCompile Include="Venta.cpp">
+      <Filter>Archivos de origen\Clases Pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Abarrote.cpp">
+      <Filter>Archivos de origen\Productos Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Carne.cpp">
+      <Filter>Archivos de origen\Productos Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Conserva.cpp">
+      <Filter>Archivos de origen\Productos Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Embutido.cpp">
+      <Filter>Archivos de origen\Productos Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Producto.cpp">
+      <Filter>Archivos de origen\Productos Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Producto_Perecedero.cpp">
+      <Filter>Archivos de origen\Productos Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen\VistaUsuario</Filter>
+    </ClCompile>
+    <ClCompile Include="Vista.cpp">
+      <Filter>Archivos de origen\VistaUsuario</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniSuper.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Producto.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Fecha.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Conserva.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Perecedero.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Abarrote.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Carne.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Empaque.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Embutido.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Categoria.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="Carrito.h">
+      <Filter>Archivos de encabezado\Decorador</Filter>
     </ClInclude>
     <ClInclude Include="Compra.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Carrito.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="ProductoAbs.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Decorador</Filter>
     </ClInclude>
     <ClInclude Include="DecAbarrote.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Decorador</Filter>
     </ClInclude>
     <ClInclude Include="DecConserva.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Decorador</Filter>
     </ClInclude>
     <ClInclude Include="DecEmbutido.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Decorador</Filter>
+    </ClInclude>
+    <ClInclude Include="Abarrote.h">
+      <Filter>Archivos de encabezado\ProductosDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Carne.h">
+      <Filter>Archivos de encabezado\ProductosDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Conserva.h">
+      <Filter>Archivos de encabezado\ProductosDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Embutido.h">
+      <Filter>Archivos de encabezado\ProductosDelegate</Filter>
     </ClInclude>
     <ClInclude Include="Cliente.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Clases Pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Fecha.h">
+      <Filter>Archivos de encabezado\Clases Pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Producto.h">
+      <Filter>Archivos de encabezado\ProductosDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductoAbs.h">
+      <Filter>Archivos de encabezado\Decorador</Filter>
+    </ClInclude>
+    <ClInclude Include="ContenedorT.h">
+      <Filter>Archivos de encabezado\Contenedores</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodo.h">
+      <Filter>Archivos de encabezado\Contenedores</Filter>
     </ClInclude>
     <ClInclude Include="Venta.h">
+      <Filter>Archivos de encabezado\Clases Pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Categoria.h">
+      <Filter>Archivos de encabezado\Clases Pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Perecedero.h">
+      <Filter>Archivos de encabezado\Clases Pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Empaque.h">
+      <Filter>Archivos de encabezado\Clases Pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Controladora.h">
+      <Filter>Archivos de encabezado\VistaUsuario</Filter>
+    </ClInclude>
+    <ClInclude Include="Vista.h">
+      <Filter>Archivos de encabezado\VistaUsuario</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniSuper.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

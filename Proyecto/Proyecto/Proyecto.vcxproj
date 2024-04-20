@@ -139,11 +139,13 @@
     <ClCompile Include="Empaque.cpp" />
     <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MiniSuper.cpp" />
     <ClCompile Include="Perecedero.cpp" />
     <ClCompile Include="Producto.cpp" />
     <ClCompile Include="ProductoPerecedero.h" />
     <ClCompile Include="Producto_Perecedero.cpp" />
     <ClCompile Include="Venta.cpp" />
+    <ClCompile Include="Vista.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Abarrote.h" />
@@ -153,16 +155,21 @@
     <ClInclude Include="Cliente.h" />
     <ClInclude Include="Compra.h" />
     <ClInclude Include="Conserva.h" />
+    <ClInclude Include="Controladora.h" />
+    <ClInclude Include="ContenedorT.h" />
     <ClInclude Include="DecAbarrote.h" />
     <ClInclude Include="DecConserva.h" />
     <ClInclude Include="DecEmbutido.h" />
     <ClInclude Include="Embutido.h" />
     <ClInclude Include="Empaque.h" />
     <ClInclude Include="Fecha.h" />
+    <ClInclude Include="MiniSuper.h" />
+    <ClInclude Include="Nodo.h" />
     <ClInclude Include="Perecedero.h" />
     <ClInclude Include="Producto.h" />
     <ClInclude Include="ProductoAbs.h" />
     <ClInclude Include="Venta.h" />
+    <ClInclude Include="Vista.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

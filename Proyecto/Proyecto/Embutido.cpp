@@ -35,8 +35,8 @@ string Embutido::toString() {
 		<< "Peso              : " << peso << endl
 		<< "Vence             : " << vencimiento->Vence() << endl
 		<< "Nombre de Marca   : " << marca << endl
-		<< "Tipo de Empaque   : " << empaquePtr->esTripa()
-		<< "==============================================" << endl;
+		<< "Tipo de Empaque   : " << empaquePtr->esTripa() << endl
+		<< "================================================" << endl;
 
 	return salida.str();
 
