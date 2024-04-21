@@ -99,6 +99,9 @@
     <ClCompile Include="MiniSuper.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Factura.cpp">
+      <Filter>Archivos de origen\Clases Pequeñas</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Carrito.h">
@@ -166,6 +169,9 @@
     </ClInclude>
     <ClInclude Include="MiniSuper.h">
       <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Factura.h">
+      <Filter>Archivos de encabezado\Clases Pequeñas</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

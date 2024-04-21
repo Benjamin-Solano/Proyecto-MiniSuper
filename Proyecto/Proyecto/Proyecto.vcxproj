@@ -137,6 +137,7 @@
     <ClCompile Include="DecEmbutido.cpp" />
     <ClCompile Include="Embutido.cpp" />
     <ClCompile Include="Empaque.cpp" />
+    <ClCompile Include="Factura.cpp" />
     <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MiniSuper.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="DecEmbutido.h" />
     <ClInclude Include="Embutido.h" />
     <ClInclude Include="Empaque.h" />
+    <ClInclude Include="Factura.h" />
     <ClInclude Include="Fecha.h" />
     <ClInclude Include="MiniSuper.h" />
     <ClInclude Include="Nodo.h" />

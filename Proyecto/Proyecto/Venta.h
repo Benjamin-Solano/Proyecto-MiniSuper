@@ -8,7 +8,6 @@ private:
 	Cliente* client;
 	Fecha* fechaCompra;
 	ProductoAbs* producto;
-	// Factura* factura;
 public:
 	Venta();
 	Venta(Cliente*, Fecha*, ProductoAbs*);

@@ -23,13 +23,10 @@ void Venta::getProducto(ProductoAbs* nuevoProducto) { producto = nuevoProducto; 
 // no se me olvido esta vez jaja
 string Venta::toString() const { 
 	stringstream s;
-	// Este toString va a desaparecer ya que esta funcion se le delegara a la clase 
-	s << "========== FACTURA MINISUPER 'POLLOS HERMANOS' =============" << endl;
-	s << "  ID cliente     : " << this->client->getCedula() << endl;
-	s << "  Fecha de Compra: " << this->fechaCompra->mostrar_Fecha() << endl;
-	s << "+=========+  Productos  +=========+" << endl;
+	// Este toString va a desaparecer ya que esta funcion se le delegara a la clase factura
+	s << "====== LISTA DE PRODUCTOS EN EL CARRITO ======" << endl;
 	s << this->producto->toString();
-	s << "============================================================" << endl;
+	s << "==============================================" << endl;
 
 	return s.str();
 }
