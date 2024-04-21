@@ -2,7 +2,6 @@
 #include <iostream>
 #include <sstream>
 #include "Venta.h"
-#include "Compra.h"
 
 using namespace std;
 
@@ -18,6 +17,5 @@ public:
 	void setVenta(Venta* nuevaVenta);
 
 	// Relacion de USO
-	double Obtener_Total_Venta();
 	string mostrar_Factura();
 };

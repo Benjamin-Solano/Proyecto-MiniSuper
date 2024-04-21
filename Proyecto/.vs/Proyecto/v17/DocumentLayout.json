@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Factura.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Factura.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Factura.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Factura.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Venta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Venta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Venta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Venta.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ProductoAbs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\ProductoAbs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Carrito.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Carrito.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Compra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Compra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Cliente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Cliente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Cliente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Cliente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ContenedorT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\ContenedorT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,130 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Factura.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Factura.cpp",
-              "RelativeDocumentMoniker": "Proyecto\\Factura.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Factura.cpp",
-              "RelativeToolTip": "Proyecto\\Factura.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-21T00:44:41.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Factura.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Factura.h",
-              "RelativeDocumentMoniker": "Proyecto\\Factura.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Factura.h",
-              "RelativeToolTip": "Proyecto\\Factura.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-21T00:44:10.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductoAbs.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ProductoAbs.h",
-              "RelativeDocumentMoniker": "Proyecto\\ProductoAbs.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ProductoAbs.h",
-              "RelativeToolTip": "Proyecto\\ProductoAbs.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-21T00:40:28.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Compra.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Compra.h",
-              "RelativeDocumentMoniker": "Proyecto\\Compra.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Compra.h",
-              "RelativeToolTip": "Proyecto\\Compra.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-21T00:38:50.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Carrito.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Carrito.h",
-              "RelativeDocumentMoniker": "Proyecto\\Carrito.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Carrito.h",
-              "RelativeToolTip": "Proyecto\\Carrito.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-15T01:53:03.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Venta.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Venta.cpp",
-              "RelativeDocumentMoniker": "Proyecto\\Venta.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Venta.cpp",
-              "RelativeToolTip": "Proyecto\\Venta.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-15T00:54:57.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Venta.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Venta.h",
-              "RelativeDocumentMoniker": "Proyecto\\Venta.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Venta.h",
-              "RelativeToolTip": "Proyecto\\Venta.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-15T00:45:44.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cliente.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Cliente.cpp",
-              "RelativeDocumentMoniker": "Proyecto\\Cliente.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Cliente.cpp",
-              "RelativeToolTip": "Proyecto\\Cliente.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-15T00:38:41.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cliente.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Cliente.h",
-              "RelativeDocumentMoniker": "Proyecto\\Cliente.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\Cliente.h",
-              "RelativeToolTip": "Proyecto\\Cliente.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-15T00:32:36.266Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\main.cpp",
-              "RelativeDocumentMoniker": "Proyecto\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\main.cpp",
-              "RelativeToolTip": "Proyecto\\main.cpp",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-14T23:59:09.595Z",
+              "Title": "ContenedorT.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ContenedorT.h",
+              "RelativeDocumentMoniker": "Proyecto\\ContenedorT.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ContenedorT.h",
+              "RelativeToolTip": "Proyecto\\ContenedorT.h",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAwwIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-21T05:02:50.709Z",
               "EditorCaption": ""
             }
           ]

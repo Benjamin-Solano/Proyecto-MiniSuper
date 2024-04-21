@@ -19,6 +19,8 @@ public:
 	string display() const;
 	string mostrarMejoresVentas();
 
+	void ordenar_Lista_Mayor_A_Menor();
+
 	friend ostream& operator << (ostream& out, const ContenedorT<T>& c) {
 		Nodo<T>* act = c.primerNodo;
 		int i = 1;
@@ -31,6 +33,8 @@ public:
 		return out;
 	}
 };
+
+
 template<class T>
 ContenedorT<T>::ContenedorT() : primerNodo(NULL) {}
 
@@ -111,8 +115,50 @@ string ContenedorT<T>::display() const {
 }
 
 template<class T>
-inline string ContenedorT<T>::mostrarMejoresVentas()
-{
-	// hacerlo jiji
-	return "";
+void ContenedorT<T>::ordenar_Lista_Mayor_A_Menor() {
+	// Validaciones...
+	if (isEmpty) {	return "Lista Vacia, ingrese elementos..."; }
+	if (!primerNodo || !primerNodo->getSigNodo()) { return; }
+	
+	// Metodo 
+	Nodo<T>* exo = primerNodo;
+	while (exo->getSigNodo()) {
+		Nodo<T>* NodoMenor = exo;
+		Nodo<T>* proxNodo = exo->getSigNodo();
+		while (proxNodo) {
+			if (proxNodo->obtenerInfo() < NodoMenor->obtenerInfo()) { // uso de la sobrecarga de "<"
+				NodoMenor = proxNodo;
+			}
+			proxNodo = proxNodo->getSigNodo();
+		}
+		// Intercambiando los datos
+		T* temporal = exo->obtenerInfo;
+		exo->obtenerInfo = NodoMenor->obtenerInfo();
+		NodoMenor->obtenerInfo = temporal;
+		exo = exo->getSigNodo();
+	}
+}
+
+template<class T>
+inline string ContenedorT<T>::mostrarMejoresVentas() {
+	stringstream salida;
+	// Primero se ordena la lista...
+	this->ordenar_Lista_Mayor_A_Menor();
+
+	// limite para imprimir 5 mejores...
+	int mejores = 0;
+
+	// Nodo para recorrer la lista ordenada...
+	Nodo<T>* exo = primerNodo;
+
+	// Imprimir mejores 5
+	while (exo) {
+		if (mejores != 6) {
+			salida << exo->obtenerInfo() << endl;  // Uso de sobrecarga de "<<"
+			mejores++;
+		}
+		exo = exo->getSigNodo();
+	}
+
+	return salida.str();
 }

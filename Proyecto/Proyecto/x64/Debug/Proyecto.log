@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  Factura.cpp
+  ProductoPerecedero.h
+  Venta.cpp
+C:\Users\user\Desktop\Proyecto Minisuper\Proyecto\Proyecto\Venta.cpp(27,30): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+  Generando código...
   Proyecto.vcxproj -> C:\Users\user\Desktop\Proyecto Minisuper\Proyecto\x64\Debug\Proyecto.exe
