@@ -9,17 +9,21 @@ public:
 	// Mantenimiento
 	static int menuMantenimiento();
 	static int ingresoProducto();
-	static void ElimProd(ContenedorT<Producto>&);
-	static void ActuProd(ContenedorT<Producto>& c);
+	static void ElimProd(MiniSuper&);
+	static void ActuProd(MiniSuper&);
 	static Producto* ingresoConserva();
 	static Producto* ingresoAbarrote();
 	static Producto* ingresoEmbutido();
 	// Ventas
-	static void menuVenta(ContenedorT<Venta>);
+	static void menuVenta(MiniSuper&);
 	static void crearFactura();
 	// Reportes 
 	static int menuReportes();
-
+	static void muestraListaProd(MiniSuper&);
+	static void muestraProdCategoria(MiniSuper&);
+	static void prodMinimosExist(MiniSuper&);
+	static void facturasCliente(MiniSuper&);
+	static void reporteMejoresClientes(MiniSuper&);
 	// Despedida 
 	static void despedida();
 

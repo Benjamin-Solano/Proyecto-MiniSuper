@@ -10,8 +10,6 @@ private:
 	Fecha* fecha;
 	Producto* producto;
 
-
-
 public:
 	Controladora();
 	virtual ~Controladora();
@@ -27,6 +25,9 @@ public:
 
 	// Ingresa productos
 	void ingresaConserva();
+	void ingresaAbarrote();
+	void ingresaEmbutido();
+	
 
 	// Control Venta
 	void controlVenta();

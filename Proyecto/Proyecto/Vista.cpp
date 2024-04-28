@@ -39,44 +39,45 @@ int Vista::ingresoProducto()
     return inProd;
 }
 
-void Vista::ElimProd(ContenedorT<Producto>& c)
+void Vista::ElimProd(MiniSuper& m)
 {
     string cod = "";
     cout << "======== ELIMINACION DE PRODUCTO ========" << endl;
     cout << "Digite el codigo del producto: "; cin >> cod;
-    // c.EliminarProducto(cod);
+    // m.EliminarProducto(cod);
 
 }
 
-void Vista::ActuProd(ContenedorT<Producto>& c)
+void Vista::ActuProd(MiniSuper& m)
 {
     string cod = "";
     cout << "======== ACTUALIZACION DE PRODUCTO ========" << endl;
     cout << "Digite el codigo del producto: "; cin >> cod;
-    // c.ActualizarProcto()
+    // m.ActualizarProcto()
 }
 
 Producto* Vista::ingresoConserva()
 {
-    string cod, nC, d;
-    double pre;
+    string cod = "", nC = "", d = "";
+    double pre = 0.0;
     bool e;
-    int exist, limt;
+    int exist = 0, limt = 0;
     // datos para fechas
     int di, mi, ai;
 
     cout << "//================= Ingreso de Conserva ===============//" << endl;
     cout << "Ingrese el codigo del producto: "; cin >> cod;
-    cout << "Ingrese el nombre comercial   : "; cin >> nC;
-    cout << "Ingrese la descripcion de este: "; cin >> d;
+    cin.clear();  cin.ignore();
+    cout << "Ingrese el nombre comercial   : "; getline(cin,nC);
+    cout << "Ingrese la descripcion de este: "; getline(cin,d);  
     cout << "Ingrese el precio             : "; cin >> pre;
     cout << "Digite su existencia          : "; cin >> exist;
     cout << "Digite su limite              : "; cin >> limt;
     cout << "Ingrese el dia de ingreso      : "; cin >> di;
     cout << "Ingrese el mes de ingreso      : "; cin >> mi;
     cout << "Ingrese el anio de ingreso     : "; cin >> ai;
-    Fecha* ingreso = new Fecha(di, mi, ai);
     cout << "Esta embasado? Si/1 , No/0    : "; cin >> e;
+    Fecha* ingreso = new Fecha(di, mi, ai);
 
     return new Conserva(cod, nC, d, pre, exist, limt, ingreso, e);
 }
@@ -84,33 +85,35 @@ Producto* Vista::ingresoConserva()
 Producto* Vista::ingresoAbarrote()
 {
     // datos del objeto
-    string cod, nomP, des, nomE;
-    int exis, lim;
-    double pre, pes;
+    string cod = "", nomP = "", des = "", nomE = "";
+    int exis = 0, lim = 0;
+    double pre = 0.0, pes = 0.0;
     bool nac;
 
     // datos para fechas
     int di, mi, ai;
     int dv, mv, av;
-
+    
     cout << "//================= Ingreso de Abarrote ===============//" << endl;
     cout << "Ingrese el codigo              : "; cin >> cod;
-    cout << "Ingrese el nombre de producto  : "; cin >> nomP;
-    cout << "Ingrese la descripcion         : "; cin >> des;
+    cin.clear(); cin.ignore();
+    cout << "Ingrese el nombre de producto  : "; getline(cin, nomP);  
+    cout << "Ingrese la descripcion         : "; getline(cin, des);  
     cout << "Ingrese el precio base         : "; cin >> pre;
     cout << "Ingrese las existencias        : "; cin >> exis;
     cout << "Ingrese el limite de existencia: "; cin >> lim;
     cout << "Ingrese el dia de ingreso      : "; cin >> di;
     cout << "Ingrese el mes de ingreso      : "; cin >> mi;
     cout << "Ingrese el anio de ingreso     : "; cin >> ai;
-    Fecha* ingreso = new Fecha(di, mi, ai);
     cout << "Es nacional?  Si/1 , No/0      : "; cin >> nac;
     cout << "Ingrese el dia de vencimiento  : "; cin >> dv;
     cout << "Ingrese el mes de vencimiento  : "; cin >> mv;
     cout << "Ingrese el anio de vencimiento : "; cin >> av; 
+    cin.clear(); cin.ignore();
+    cout << "Ingrese el nombre de empresa   : "; getline(cin, nomE);
+    Fecha* ingreso = new Fecha(di, mi, ai);
     Fecha* caduca = new Fecha(dv, mv, av);
     Perecedero* vence = new Perecedero(caduca);
-    cout << "Ingrese el nombre de empresa   : "; cin >> nomE;
 
     return new Abarrote(cod, nomP, des, pre, exis, lim, ingreso, nac, pes, vence, nomE); 
 }
@@ -120,7 +123,7 @@ Producto* Vista::ingresoEmbutido()
     // datos del objeto
     string cod, nomP, des, nomE, mar, nomA, parA;
     int exis, lim;
-    double pre, pes;
+    double pre = 0.0, pes = 0.0;
     bool nac, tripa;
 
     // datos para fechas
@@ -129,31 +132,33 @@ Producto* Vista::ingresoEmbutido()
 
     cout << "//================= Ingreso de Embutido ===============//" << endl;
     cout << "Ingrese el codigo              : "; cin >> cod;
-    cout << "Ingrese el nombre de producto  : "; cin >> nomP;
-    cout << "Ingrese la descripcion         : "; cin >> des;
+    cin.clear(); cin.ignore();
+    cout << "Ingrese el nombre de producto  : "; getline(cin,nomP); 
+    cout << "Ingrese la descripcion         : "; getline(cin,des); 
     cout << "Ingrese el precio base         : "; cin >> pre;
-    cout << "Ingrese las existencias        : "; cin >> exis;
+    cout << "Ingrese las existencias        : "; cin >> exis; 
     cout << "Ingrese el limite de existencia: "; cin >> lim;
     cout << "Ingrese el dia de ingreso      : "; cin >> di;
     cout << "Ingrese el mes de ingreso      : "; cin >> mi;
     cout << "Ingrese el anio de ingreso     : "; cin >> ai;
-    Fecha* ingreso = new Fecha(di, mi, ai);
     cout << "Es nacional?  Si/1 , No/0      : "; cin >> nac;
     cout << "Ingrese el dia de vencimiento  : "; cin >> dv;
     cout << "Ingrese el mes de vencimiento  : "; cin >> mv;
     cout << "Ingrese el anio de vencimiento : "; cin >> av;
+    cin.clear(); cin.ignore();
+    cout << "Ingrese el nombre del animal   : "; getline(cin, nomA); 
+    cout << "Ingrese la parte del animal    : "; getline(cin, parA); 
+    cout << "Ingrese el nombre de la marca  : "; getline(cin, mar); 
+    cout << "Es de tripa el empaque? Si/1, No/0: "; cin >> tripa;
+
     Fecha* caduca = new Fecha(dv, mv, av);
     Perecedero* vence = new Perecedero(caduca);
-    cout << "Ingrese el nombre del animal   : "; cin >> nomA;
-    cout << "Ingrese la parte del animal    : "; cin >> parA;
-    cout << "Ingrese el nombre de la marca  : "; cin >> mar;
-    cout << "Es de tripa el empaque? Si/1, No/0: "; cin >> tripa;
     Empaque* empaque = new Empaque(tripa);
-
+    Fecha* ingreso = new Fecha(di, mi, ai);
     return new Embutido(cod, nomP, des, pre, exis, lim, ingreso, nac, pes, vence, nomA, parA, mar, empaque);
 }
 
-void Vista::menuVenta(ContenedorT<Venta> v)
+void Vista::menuVenta(MiniSuper& m)
 {
     string ced = "";
     string cod = "";
@@ -163,8 +168,6 @@ void Vista::menuVenta(ContenedorT<Venta> v)
     cout << "Digite la cedula del cliente   : "; cin >> ced;
     cout << "Digite codigo del producto     : "; cin >> cod;
     cout << "Digite la cantidad del producto: "; cin >> cant;
-    cout << "============== FACTURA ==============" << endl;
-    
    
 }
 
@@ -176,7 +179,7 @@ void Vista::crearFactura()
 int Vista::menuReportes()
 {
     int opR = 0;
-    cout << "//================================ MENU PRINCIPAL ================================//" << endl;
+    cout << "//================================ MENU REPORTES ================================//" << endl;
     cout << "[1] Reportar todos los productos del minisuper" << endl;
     cout << "[2] Reportar solo los productos de una determinada categoria" << endl;
     cout << "[3] Reportar solo los productos que está por debajo del mínimo de su existencia" << endl;
@@ -186,6 +189,42 @@ int Vista::menuReportes()
     cout << "Seleccione una opcion... ";
     cin >> opR;
     return opR;
+}
+
+void Vista::muestraListaProd(MiniSuper& m)
+{
+    cout << "/======= Mostrando la lista de productos existentes =====/" << endl;
+    cout << m.getListaProd() << endl;
+    cout << "/========================================================/" << endl;
+}
+
+void Vista::muestraProdCategoria(MiniSuper&m)
+{
+    string cat;
+    cout << "Ingrese Categoria: "; cin >> cat; cin.clear(); cin.ignore();
+    cout << "/========== Mostrando productos por Categoria =========/" << endl;
+    cout << m.getProdCate(cat) << endl;
+    cout << "/======================================================/" << endl;
+}
+
+void Vista::prodMinimosExist(MiniSuper&m)
+{
+    cout << "/======= Mostrando la lista de Productos menor a su min existencia =====/" << endl;
+    cout << m.getProdMenorLimit() << endl;
+    cout << "/=======================================================================/" << endl;
+}
+
+void Vista::facturasCliente(MiniSuper& m)
+{
+    string ced;
+    cout << "Digite la cedula del cliente: "; cin >> ced;
+    cout << "/======= Mostrando la lista de Facturas =====/" << endl;
+    cout << m.getListaFacturas(ced) << endl;
+    cout << "/============================================/" << endl;
+}
+
+void Vista::reporteMejoresClientes(MiniSuper& m)
+{
 }
 
 void Vista::despedida()

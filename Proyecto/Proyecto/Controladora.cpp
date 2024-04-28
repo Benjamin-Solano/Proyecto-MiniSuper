@@ -66,6 +66,7 @@ void Controladora::controlMantenimiento()
 			break;
 		case 3:
 			controlMantenimiento3();
+			system("cls");
 			break;
 		case 4:
 			break;
@@ -93,11 +94,12 @@ void Controladora::controlMantenimiento1()
 			system("cls");
 			break;
 		case 2:
-			
+			ingresaAbarrote();
 			system("cls");
 			break;
 		case 3:
-			
+			ingresaEmbutido();
+			system("cls");
 			break;
 		case 4:
 			break;
@@ -124,6 +126,16 @@ void Controladora::ingresaConserva()
 	producto = Vista::ingresoConserva();
 	miniS->ingresaProducto(producto);
 }
+void Controladora::ingresaAbarrote()
+{
+	producto = Vista::ingresoAbarrote();
+	miniS->ingresaProducto(producto);
+}
+void Controladora::ingresaEmbutido()
+{
+	producto = Vista::ingresoEmbutido();
+	miniS->ingresaProducto(producto);
+}
 // Venta
 void Controladora::controlVenta()
 {
@@ -141,20 +153,28 @@ void Controladora::controlReportes()
 		switch (optR) {
 		case 1:
 			controlReportes1();
+			system("pause");
 			system("cls");
 			break;
 		case 2:
 			controlReportes2();
+			system("pause");
 			system("cls");
 			break;
 		case 3:
 			controlReportes3();
+			system("pause");
+			system("cls");
 			break;
 		case 4:
 			controlReportes4();
+			system("pause");
+			system("cls");
 			break;
 		case 5:
 			controlReportes5();
+			system("pause");
+			system("cls");
 			break;
 		case 6:
 			break;
@@ -169,22 +189,27 @@ void Controladora::controlReportes()
 
 void Controladora::controlReportes1()
 {
+	Vista::muestraListaProd(*miniS);
 }
 
 void Controladora::controlReportes2()
 {
+	Vista::muestraProdCategoria(*miniS);
 }
 
 void Controladora::controlReportes3()
 {
+	Vista::prodMinimosExist(*miniS);
 }
 
 void Controladora::controlReportes4()
 {
+	Vista::facturasCliente(*miniS);
 }
 
 void Controladora::controlReportes5()
 {
+	Vista::reporteMejoresClientes(*miniS);
 }
 
 void Controladora::despedida()

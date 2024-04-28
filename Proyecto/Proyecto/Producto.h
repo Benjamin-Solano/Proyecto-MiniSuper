@@ -50,7 +50,7 @@ public:
 	}
 
 	// Sobrecarga de Operador No Miembro de Salida de datos...
-	virtual friend ostream& operator << (ostream& sal, const Producto& obj) = 0;
+	/* virtual friend ostream& operator << (ostream& sal, const Producto& obj) = 0; */
 
 
 };

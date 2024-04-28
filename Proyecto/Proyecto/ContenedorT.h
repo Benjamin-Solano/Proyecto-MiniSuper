@@ -20,11 +20,13 @@ public:
 	string mostrarMejoresVentas();
 	string mostrarProductosDeCategoria(string);
 	void ordenar_Lista_Mayor_A_Menor();
+	string facturasClientePorCed(string);
+	string productosMenorALim();
 
 	friend ostream& operator << (ostream& out, const ContenedorT<T>& c) {
 		Nodo<T>* act = c.primerNodo;
 		int i = 1;
-		while (act != NULL) {
+		while (act != nullptr) {
 			out << i << "-  " << *act->obtenerInfo();
 			out	<< "--------------------------------" << endl;
 			act = act->getSig();
@@ -32,15 +34,20 @@ public:
 		}
 		return out;
 	}
+	// no sé si se terminará de ocupar
+	/*friend bool operator == (string cat, ContenedorT<T> c) {
+		Nodo<T>* aux = c.primerNodo;
+		return aux->obtenerInfo->getCategoria() == cat;
+	}*/
 };
 
 
 template<class T>
-ContenedorT<T>::ContenedorT() : primerNodo(NULL) {}
+ContenedorT<T>::ContenedorT() : primerNodo(nullptr) {}
 
 template<class T>
 ContenedorT<T>::ContenedorT(const ContenedorT& list) {
-	primerNodo = NULL;
+	primerNodo = nullptr;
 	Nodo<T>* pAct = list.primerNodo;  
 	while (pAct) {
 		this->agregarFinal(pAct->obtenerInfo());
@@ -58,7 +65,7 @@ template<class T>
 inline bool ContenedorT<T>::eliminarTodo()
 {
 	Nodo<T>* act = primerNodo;
-	while (act != NULL) {
+	while (act != nullptr) {
 		primerNodo = primerNodo->getSigNodo();
 		delete act;
 		act = primerNodo;
@@ -68,7 +75,7 @@ inline bool ContenedorT<T>::eliminarTodo()
 }
 
 template<class T>
-bool ContenedorT<T>::isEmpty() { return primerNodo == NULL; }
+bool ContenedorT<T>::isEmpty() { return primerNodo == nullptr; }
 
 template<class T>
 int ContenedorT<T>::size() {
@@ -81,6 +88,7 @@ int ContenedorT<T>::size() {
 	return cont;
 }
 
+
 template<class T>
 void ContenedorT<T>::agregarInicio(T* info) {
 	T* info1 = info;
@@ -90,13 +98,13 @@ void ContenedorT<T>::agregarInicio(T* info) {
 template<class T>
 void ContenedorT<T>::ingresaElemento(T* info) {
 	T* info1 = info;
-	Nodo<T>* nuevo = new Nodo<T>(info1,NULL);
+	Nodo<T>* nuevo = new Nodo<T>(info1,nullptr);
 	if (this->isEmpty()) {
 		this->agregarInicio(info);
 	}
 	else {
 		Nodo<T>* pAct = primerNodo;
-		while (pAct->getSigNodo() != NULL) {
+		while (pAct->getSigNodo() != nullptr) {
 			pAct = pAct->getSigNodo();
 		}
 		pAct->setSiguiente(nuevo);
@@ -107,7 +115,7 @@ template<class T>
 string ContenedorT<T>::display() const {
 	stringstream s;
 	Nodo<T>* pAct = primerNodo;
-	while (pAct != NULL) {
+	while (pAct != nullptr) {
 		s << pAct->obtenerInfo()->toString();
 		pAct = pAct->getSigNodo();
 	}
@@ -120,7 +128,7 @@ string ContenedorT<T>::display() const {
 template<class T>
 void ContenedorT<T>::ordenar_Lista_Mayor_A_Menor() {
 	// Validaciones...
-	if (isEmpty) {	return "Lista Vacia, ingrese elementos..."; }
+	if (isEmpty()) {	return "Lista Vacia, ingrese elementos..."; }
 	if (!primerNodo || !primerNodo->getSigNodo()) { return; }
 	
 	// Metodo 
@@ -143,6 +151,36 @@ void ContenedorT<T>::ordenar_Lista_Mayor_A_Menor() {
 }
 
 template<class T>
+inline string ContenedorT<T>::facturasClientePorCed(string ced)
+{
+	stringstream s;
+	Nodo<T>* exo = primerNodo;
+	if (isEmpty()) {
+		return "Lista vacia, no existen facturas";
+	} 
+	while (exo != nullptr && ced == exo->obtenerInfo()->getCliente()->getCedula()) {
+		s << exo->obtenerInfo()->toString(); 
+		exo = exo->getSigNodo();
+	}
+	return s.str();
+}
+
+template<class T>
+inline string ContenedorT<T>::productosMenorALim()
+{
+	stringstream s;
+	Nodo<T>* exo = primerNodo;
+	if (isEmpty()) {
+		return "Lista vacia, no existen productos";
+	}
+	while (exo != nullptr && exo->obtenerInfo()->getExistencia() < exo->obtenerInfo()->getLimite()) {
+		s << exo->obtenerInfo()->toString();
+		exo = exo->getSigNodo();
+	}
+	return s.str();
+}
+
+template<class T>
 inline string ContenedorT<T>::mostrarMejoresVentas() {
 	// Primero se ordena la lista...
 	this->ordenar_Lista_Mayor_A_Menor();
@@ -155,8 +193,8 @@ inline string ContenedorT<T>::mostrarMejoresVentas() {
 
 	// Imprimir mejores 5
 	while (exo) {
-		if (mejores != 6) {
-			cout << exo->obtenerInfo() << endl;  // Uso de sobrecarga de "<<"
+		if (mejores != 6) {  // aqui no deberia de ser mejores < 6 ?
+			cout << exo->obtenerInfo()->toString() << endl;  // Uso de sobrecarga de "<<"
 			mejores++;
 		}
 		exo = exo->getSigNodo();
@@ -164,16 +202,16 @@ inline string ContenedorT<T>::mostrarMejoresVentas() {
 }
 
 template <class T>
-string ContenedorT<T>::mostrarProductosDeCategoria(string categoria) {
+string ContenedorT<T>::mostrarProductosDeCategoria(string cat) {
 	
-
-	Producto* auxiliar = new Producto();
-	auxiliar->setCategoria(categoria);
-
+	stringstream s;
 	Nodo<T>* exo = primerNodo;
-	while (exo != nullptr && auxiliar == exo->obtenerInfo()) { // Sobrecarga de igualdad en Producto...
-		cout << exo->obtenerInfo(); // Sobrecarga de Operador No Miembro de Salida en Producto...
+	if (isEmpty()) {
+		return "Lista vacia";
+	}
+	while (exo != nullptr && cat == exo->obtenerInfo()->getCategoria()) { // Sobrecarga de igualdad en Producto... No necesaria, pese a ser templates se puede obtener sus metodos
+		s << exo->obtenerInfo()->toString(); // Sobrecarga de Operador No Miembro de Salida en Producto... Falto al final el toString para que salieran los datos
 		exo = exo->getSigNodo();
 	}
-
+	return s.str();
 }

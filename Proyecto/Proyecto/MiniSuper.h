@@ -34,4 +34,9 @@ public:
 	void ingresaVenta(Venta*);
 
 	void ingresaProducto(Producto*);
+
+	string getListaProd();
+	string getProdCate(string);
+	string getListaFacturas(string);
+	string getProdMenorLimit();
 };

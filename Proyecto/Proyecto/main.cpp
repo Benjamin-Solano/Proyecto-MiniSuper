@@ -1,4 +1,4 @@
-// INCLUDE DE MINISUPER 
+// INCLUDE DE CONTROLADORA 
 #include "Controladora.h"
 
 int main() {
