@@ -10,6 +10,13 @@ public:
 	void setEnvasado(bool);
 	bool getEnvasado();
 
-	string toString();
+	string toString() const ;
+	virtual double obtenerPorcentajeGanancia() const {}
+
+	// Sobrecarga de Operador No Miembro de Salida de datos...
+	virtual friend ostream& operator << (ostream& sal, const Producto& obj) {
+		sal << obj.toString() << endl;
+		return sal;
+	}
 
 };

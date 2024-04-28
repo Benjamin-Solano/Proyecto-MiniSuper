@@ -13,6 +13,7 @@ double Producto_Perecedero::getPeso() { return peso; }
 Perecedero* Producto_Perecedero::getFechaVencimiento() { return vencimiento; }
 
 
+
 void Producto_Perecedero::setNacional(bool nuevoNacional) { nacional = nuevoNacional; }
 void Producto_Perecedero::setPeso(double nuevoPeso) { peso = nuevoPeso; }
 void Producto_Perecedero::setFechaVencimiento(Perecedero* nuevoVencimiento) { vencimiento = nuevoVencimiento; }

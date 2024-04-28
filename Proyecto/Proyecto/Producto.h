@@ -25,7 +25,7 @@ public:
 	string getCodigo();
 	string getNombre_Comercial();
 	string getDescripcion();
-	double getPrecio_Costo();
+	double getPrecio_Costo() const ;
 	string getCategoria();
 	int getExistencia();
 	int getLimite();
@@ -40,8 +40,17 @@ public:
 	void setLimite(int);
 	void setFecha_Ingresada(Fecha*);
 
-	double obtenerPorcentajeGanancia();
+	virtual double obtenerPorcentajeGanancia() const;
 
-	virtual string toString() = 0;
+	virtual string toString() const = 0;
+
+	// Sobrecarga de Operador de Igualdad...
+	bool operator == (const Producto& obj2) {
+		return this->categoria == obj2.categoria;
+	}
+
+	// Sobrecarga de Operador No Miembro de Salida de datos...
+	virtual friend ostream& operator << (ostream& sal, const Producto& obj) = 0;
+
 
 };

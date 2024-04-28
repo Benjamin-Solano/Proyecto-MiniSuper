@@ -18,7 +18,7 @@ public:
 	void ingresaElemento(T*);
 	string display() const;
 	string mostrarMejoresVentas();
-
+	string mostrarProductosDeCategoria(string);
 	void ordenar_Lista_Mayor_A_Menor();
 
 	friend ostream& operator << (ostream& out, const ContenedorT<T>& c) {
@@ -51,7 +51,7 @@ ContenedorT<T>::ContenedorT(const ContenedorT& list) {
 template<class T>
 inline ContenedorT<T>::~ContenedorT()
 {
-	this->eliminarTodo();
+	if(this->isEmpty())	this->eliminarTodo();
 }
 
 template<class T>
@@ -114,6 +114,9 @@ string ContenedorT<T>::display() const {
 	return s.str();
 }
 
+
+// Metodos para mostrar mejores ventas...
+
 template<class T>
 void ContenedorT<T>::ordenar_Lista_Mayor_A_Menor() {
 	// Validaciones...
@@ -141,7 +144,6 @@ void ContenedorT<T>::ordenar_Lista_Mayor_A_Menor() {
 
 template<class T>
 inline string ContenedorT<T>::mostrarMejoresVentas() {
-	stringstream salida;
 	// Primero se ordena la lista...
 	this->ordenar_Lista_Mayor_A_Menor();
 
@@ -154,11 +156,24 @@ inline string ContenedorT<T>::mostrarMejoresVentas() {
 	// Imprimir mejores 5
 	while (exo) {
 		if (mejores != 6) {
-			salida << exo->obtenerInfo() << endl;  // Uso de sobrecarga de "<<"
+			cout << exo->obtenerInfo() << endl;  // Uso de sobrecarga de "<<"
 			mejores++;
 		}
 		exo = exo->getSigNodo();
 	}
+}
 
-	return salida.str();
+template <class T>
+string ContenedorT<T>::mostrarProductosDeCategoria(string categoria) {
+	
+
+	Producto* auxiliar = new Producto();
+	auxiliar->setCategoria(categoria);
+
+	Nodo<T>* exo = primerNodo;
+	while (exo != nullptr && auxiliar == exo->obtenerInfo()) { // Sobrecarga de igualdad en Producto...
+		cout << exo->obtenerInfo(); // Sobrecarga de Operador No Miembro de Salida en Producto...
+		exo = exo->getSigNodo();
+	}
+
 }

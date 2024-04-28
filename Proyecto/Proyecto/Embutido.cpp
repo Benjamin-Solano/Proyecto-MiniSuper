@@ -16,18 +16,19 @@ void Embutido::setEmpaque(Empaque* nuevoEmpaque) { empaquePtr = nuevoEmpaque; }
 string Embutido::getMarca() { return marca; }
 Empaque* Embutido::getEmpaque() { return  empaquePtr; }
 
-string Embutido::esNacional() {
+string Embutido::esNacional() const {
 	if (nacional) return " Si";
 	else return " No";
 }
 
-string Embutido::toString() {
+string Embutido::toString() const {
 	stringstream salida;
 	salida << "============== PRODUCTO CARNE ================" << endl
 		<< "Codigo            : " << codigo << endl
 		<< "Nombre Comercial  : " << nombre_Comercial << endl
 		<< "Descripcion       : " << descripcion << endl
 		<< "Precio Costo      : " << precio_Costo << endl
+		<< "Porcentaje Ganancia: " << this->obtenerPorcentajeGanancia() << endl
 		<< "Categoria         : " << categoria << endl
 		<< "Existencias       : " << existencia << endl
 		<< "Limite Existencias: " << limite << endl

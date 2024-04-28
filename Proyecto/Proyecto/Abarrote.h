@@ -13,8 +13,14 @@ public:
 
 	void setNombreEmpresa(string);
 
-	string esNacional();
+	string esNacional() const ;
 
-	string toString();
+	string toString() const;
+
+	// Sobrecarga de Operador No Miembro de Salida de datos...
+	virtual friend ostream& operator << (ostream& sal, const Producto& obj) {
+		sal << obj.toString() << endl;
+		return sal;
+	}
 
 };

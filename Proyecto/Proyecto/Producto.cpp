@@ -23,7 +23,7 @@ Producto:: ~Producto(){ if (fechaPtr) delete fechaPtr; }
 string Producto::getCodigo() { return codigo; }
 string Producto::getNombre_Comercial() { return nombre_Comercial; }
 string Producto::getDescripcion() { return descripcion; }
-double Producto::getPrecio_Costo() { return precio_Costo; }
+double Producto::getPrecio_Costo() const { return precio_Costo; }
 string Producto::getCategoria() { return categoria; }
 int Producto::getExistencia() { return existencia; }
 int Producto::getLimite() { return limite; }
@@ -39,6 +39,6 @@ void Producto::setLimite(int nuevolimite) { limite = nuevolimite; }
 void Producto::setFecha_Ingresada(Fecha* nuevaFecha) { fechaPtr = nuevaFecha; }
 
 
-double Producto::obtenerPorcentajeGanancia() {
+double Producto::obtenerPorcentajeGanancia() const{
 	return this->getPrecio_Costo() * cat->porceGanancia(this->categoria);
 }

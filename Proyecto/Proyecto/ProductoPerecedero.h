@@ -21,6 +21,13 @@ public:
 	void setPeso(double);
 	void setFechaVencimiento(Perecedero*);
 
+	virtual double obtenerPorcentajeGanancia() const {}
 
-	virtual string toString() = 0;
+	virtual string toString() const = 0;
+
+	// Sobrecarga de Operador No Miembro de Salida de datos...
+	virtual friend ostream& operator << (ostream& sal, const Producto& obj) {
+		sal << obj.toString() << endl;
+		return sal;
+	}
 };

@@ -12,18 +12,19 @@ string Abarrote::getNombreEmpresa() { return nombreEmpresa; }
 
 void Abarrote::setNombreEmpresa(string nuevoNombreEmpresa) { nombreEmpresa = nuevoNombreEmpresa; }
 
-string Abarrote::esNacional() {
+string Abarrote::esNacional() const {
 	if (nacional) return " Si";
 	else return " No";
 }
 
-string Abarrote::toString(){
+string Abarrote::toString() const {
 	stringstream salida;
 	salida << "======== PRODUCTO ABARROTE PERECEDERO ========" << endl
 		<< "Codigo            : " << codigo << endl
 		<< "Nombre Comercial  : " << nombre_Comercial << endl
 		<< "Descripcion       : " << descripcion << endl
 		<< "Precio Costo      : " << precio_Costo << endl
+		<< "Porcentaje Ganancia: " << this->obtenerPorcentajeGanancia() << endl
 		<< "Categoria         : " << categoria << endl
 		<< "Existencias       : " << existencia << endl
 		<< "Limite Existencias: " << limite << endl

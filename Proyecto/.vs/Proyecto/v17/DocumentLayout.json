@@ -1,9 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ContenedorT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Vista.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Vista.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Abarrote.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Abarrote.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Abarrote.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Abarrote.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\ProductoPerecedero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\ProductoPerecedero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto_Perecedero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Producto_Perecedero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Embutido.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Embutido.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Embutido.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Embutido.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Carne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Carne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Producto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Conserva.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Conserva.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Conserva.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Conserva.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Producto.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Vista.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\Vista.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\ContenedorT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12E4FA65-C511-4A2A-978B-04D36EABACE1}|Proyecto\\Proyecto.vcxproj|solutionrelative:Proyecto\\ContenedorT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,21 +66,190 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Producto.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto.cpp",
+              "RelativeDocumentMoniker": "Proyecto\\Producto.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto.cpp",
+              "RelativeToolTip": "Proyecto\\Producto.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-28T16:55:53.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Carne.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Carne.h",
+              "RelativeDocumentMoniker": "Proyecto\\Carne.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Carne.h",
+              "RelativeToolTip": "Proyecto\\Carne.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-28T16:52:43.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Embutido.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Embutido.cpp",
+              "RelativeDocumentMoniker": "Proyecto\\Embutido.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Embutido.cpp",
+              "RelativeToolTip": "Proyecto\\Embutido.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-28T16:49:08.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Embutido.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Embutido.h",
+              "RelativeDocumentMoniker": "Proyecto\\Embutido.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Embutido.h",
+              "RelativeToolTip": "Proyecto\\Embutido.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-28T16:48:30.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Abarrote.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Abarrote.cpp",
+              "RelativeDocumentMoniker": "Proyecto\\Abarrote.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Abarrote.cpp",
+              "RelativeToolTip": "Proyecto\\Abarrote.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-28T16:47:02.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Abarrote.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Abarrote.h",
+              "RelativeDocumentMoniker": "Proyecto\\Abarrote.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Abarrote.h",
+              "RelativeToolTip": "Proyecto\\Abarrote.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-28T16:46:52.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto_Perecedero.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto_Perecedero.cpp",
+              "RelativeDocumentMoniker": "Proyecto\\Producto_Perecedero.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto_Perecedero.cpp",
+              "RelativeToolTip": "Proyecto\\Producto_Perecedero.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-28T16:46:44.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoPerecedero.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\ProductoPerecedero.h",
+              "RelativeDocumentMoniker": "Proyecto\\ProductoPerecedero.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\ProductoPerecedero.h",
+              "RelativeToolTip": "Proyecto\\ProductoPerecedero.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-28T16:46:34.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Conserva.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Conserva.cpp",
+              "RelativeDocumentMoniker": "Proyecto\\Conserva.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Conserva.cpp",
+              "RelativeToolTip": "Proyecto\\Conserva.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-28T16:42:49.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Conserva.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Conserva.h",
+              "RelativeDocumentMoniker": "Proyecto\\Conserva.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Conserva.h",
+              "RelativeToolTip": "Proyecto\\Conserva.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-28T16:41:23.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Producto.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto.h",
+              "RelativeDocumentMoniker": "Proyecto\\Producto.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Producto.h",
+              "RelativeToolTip": "Proyecto\\Producto.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-28T16:14:45.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Vista.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Vista.h",
+              "RelativeDocumentMoniker": "Proyecto\\Vista.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Vista.h",
+              "RelativeToolTip": "Proyecto\\Vista.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-28T13:46:09.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vista.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Vista.cpp",
+              "RelativeDocumentMoniker": "Proyecto\\Vista.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\Vista.cpp",
+              "RelativeToolTip": "Proyecto\\Vista.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-28T13:46:06.817Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "ContenedorT.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ContenedorT.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\ContenedorT.h",
               "RelativeDocumentMoniker": "Proyecto\\ContenedorT.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto Minisuper\\Proyecto\\Proyecto\\ContenedorT.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Proyecto\\Proyecto\\Proyecto\\ContenedorT.h",
               "RelativeToolTip": "Proyecto\\ContenedorT.h",
-              "ViewState": "AQIAAIgAAAAAAAAAAAAwwIwAAAAAAAAA",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAAALIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-21T05:02:50.709Z",
               "EditorCaption": ""

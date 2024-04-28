@@ -15,5 +15,5 @@ public:
 	string getNombreAnimal();
 	string getParteDelAnimal();
 
-	virtual string toString() = 0;
+	virtual string toString() const = 0;
 };

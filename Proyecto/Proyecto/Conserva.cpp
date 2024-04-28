@@ -8,7 +8,7 @@ Conserva::Conserva(string cod, string nomC, string des, double preC, int ex, int
 void Conserva::setEnvasado(bool CambiarEnvasado) { envasado = CambiarEnvasado; }
 bool Conserva::getEnvasado() { return envasado; }
 
-string Conserva::toString(){
+string Conserva::toString() const {
 	stringstream salida;
 	salida << "=========== Producto Conserva ===========" << endl
 		<< "Codigo            : " << codigo << endl
@@ -19,7 +19,7 @@ string Conserva::toString(){
 		<< "Existencias       : " << existencia << endl
 		<< "Limite Existencias: " << limite << endl
 		<< "Fecha de Ingreso  : " << fechaPtr->mostrar_Fecha() << endl
-		<< "Porcentaje Ganancia: " << this->obtenerPorcentajeGanancia() << endl
+		<< "Porcentaje Ganancia: " << this->obtenerPorcentajeGanancia() << endl 
 		<< "========================================" << endl;
 		return salida.str();
 }
