@@ -1,6 +1,5 @@
 #pragma once
-#include<iostream>
-using namespace std;
+#include"MiniSuper.h"
 
 class Vista {
 public:
@@ -9,12 +8,19 @@ public:
 
 	// Mantenimiento
 	static int menuMantenimiento();
-	static int facturas();
-	static int productos();
+	static int ingresoProducto();
+	static void ElimProd(ContenedorT<Producto>&);
+	static void ActuProd(ContenedorT<Producto>& c);
+	static Producto* ingresoConserva();
+	static Producto* ingresoAbarrote();
+	static Producto* ingresoEmbutido();
 	// Ventas
-	static int menuVentas();
+	static void menuVenta(ContenedorT<Venta>);
 	static void crearFactura();
 	// Reportes 
 	static int menuReportes();
+
+	// Despedida 
+	static void despedida();
 
 };

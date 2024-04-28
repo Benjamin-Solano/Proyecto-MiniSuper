@@ -102,6 +102,9 @@
     <ClCompile Include="Factura.cpp">
       <Filter>Archivos de origen\Clases Pequeñas</Filter>
     </ClCompile>
+    <ClCompile Include="Controladora.cpp">
+      <Filter>Archivos de origen\VistaUsuario</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Carrito.h">

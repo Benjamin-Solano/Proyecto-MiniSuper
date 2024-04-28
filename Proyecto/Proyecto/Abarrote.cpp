@@ -1,6 +1,8 @@
 #include "Abarrote.h"
 
-Abarrote::Abarrote(string cod, string nomC, string des, double preC, int exi, int lim, Fecha* fecha, bool nac, double pes, Perecedero* per, string nomE) : Producto_Perecedero(cod, nomC, des, preC, exi, lim, fecha, nac, pes, per), nombreEmpresa(nomE) {
+Abarrote::Abarrote(string cod, string nomC, string des, double preC, int exi, int lim, Fecha* fecha, bool nac, double pes, Perecedero* per, string nomE) 
+	: Producto_Perecedero(cod, nomC, des, preC, exi, lim, fecha, nac, pes, per), nombreEmpresa(nomE) 
+{
 	categoria = "Categoria #2";
 }
 

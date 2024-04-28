@@ -4,6 +4,7 @@
 #include "ProductoPerecedero.h"
 #include "Perecedero.h"
 #include "Abarrote.h"
+#include "Factura.h"
 // INCLUDE DEL PATRON DECORADOR
 #include "Compra.h"
 #include "Carrito.h"

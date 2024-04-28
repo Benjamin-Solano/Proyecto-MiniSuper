@@ -1,7 +1,8 @@
 #include "Embutido.h"
 
 Embutido::Embutido(string cod, string nomC, string des, double preC, int ex, int lim, Fecha* fecha, bool nac, double pes, Perecedero* vence, string nomA, string parteAnimal, string marc, Empaque* empPtr) : 
-	Carne(cod,nomC,des,preC,ex,lim,fecha,nac,pes,vence,nomA,parteAnimal), marca(marc), empaquePtr(empPtr) { 
+	Carne(cod,nomC,des,preC,ex,lim,fecha,nac,pes,vence,nomA,parteAnimal), marca(marc), empaquePtr(empPtr)
+{ 
 	categoria = "Categoria #3";
 }
 Embutido::~Embutido() {

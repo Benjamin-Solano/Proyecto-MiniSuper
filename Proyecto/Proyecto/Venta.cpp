@@ -1,7 +1,7 @@
 #include "Venta.h"
 
 Venta::Venta(){
-	this->client = nullptr;
+	this->client = nullptr; 
 	this->fechaCompra = nullptr;
 	this->producto = nullptr;
 }
@@ -22,7 +22,7 @@ void Venta::getProducto(ProductoAbs* nuevoProducto) { producto = nuevoProducto; 
 
 double Venta::Obtener_Total_Venta() const {
 	Compra* exo = producto; // Puntero al ultimo producto añadido a la compra...
-	int total = 0;
+	double total = 0;
 	while (exo != nullptr && exo->Obtener_Nombre() != "Carrito") { // El carrito no interesa
 		total += exo->Obtener_Costo();
 		exo = exo->Obtener_SigProducto();

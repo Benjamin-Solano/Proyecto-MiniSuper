@@ -132,6 +132,7 @@
     <ClCompile Include="Categoria.cpp" />
     <ClCompile Include="Cliente.cpp" />
     <ClCompile Include="Conserva.cpp" />
+    <ClCompile Include="Controladora.cpp" />
     <ClCompile Include="DecAbarrote.cpp" />
     <ClCompile Include="DecConserva.cpp" />
     <ClCompile Include="DecEmbutido.cpp" />
