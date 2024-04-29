@@ -34,6 +34,7 @@ public:
 	void ingresaVenta(Venta*);
 
 	void ingresaProducto(Producto*);
+	void eliminarProd(string);
 
 	string getListaProd();
 	string getProdCate(string);

@@ -22,6 +22,8 @@ public:
 	void ordenar_Lista_Mayor_A_Menor();
 	string facturasClientePorCed(string);
 	string productosMenorALim();
+	Nodo<T>* getValor(string);
+	bool eliminarProd(string);
 
 	friend ostream& operator << (ostream& out, const ContenedorT<T>& c) {
 		Nodo<T>* act = c.primerNodo;
@@ -181,6 +183,49 @@ inline string ContenedorT<T>::productosMenorALim()
 }
 
 template<class T>
+inline Nodo<T>* ContenedorT<T>::getValor(string c)
+{
+		if (isEmpty()) {
+			return nullptr;
+		}
+		else {
+			Nodo<T>* exo = primerNodo;
+			while (exo != nullptr) {
+				if (exo->obtenerInfo()->getCodigo() == c || exo->obtenerInfo()->getNombre_Comercial() == c) {
+					return exo;
+				}
+				else {
+					exo = exo->getSigNodo();
+				}
+				return exo; // Nullptr
+			}
+		}
+		return nullptr;
+}
+
+template<class T>
+inline bool ContenedorT<T>::eliminarProd(string c)
+{
+		Nodo<T>* exo = getValor(c);
+		Nodo<T>* auxiliar = primerNodo;
+
+		if (exo->obtenerInfo()->getCodigo() == primerNodo->obtenerInfo()->getCodigo() || exo->obtenerInfo()->getNombre_Comercial() == primerNodo->obtenerInfo()->getNombre_Comercial()) {
+			primerNodo->setInfo(exo->getSigNodo()->obtenerInfo());
+			delete exo;
+			return true;
+		}
+		else {
+			while (auxiliar->obtenerInfo()->getCodigo() != exo->obtenerInfo()->getCodigo() || auxiliar->obtenerInfo()->getNombre_Comercial() != exo->obtenerInfo()->getNombre_Comercial()) {
+				auxiliar = auxiliar->getSigNodo();
+			}
+			auxiliar->setInfo(exo->getSigNodo()->obtenerInfo());
+			delete exo;
+			return true;
+		}
+		return false;
+}
+
+template<class T>
 inline string ContenedorT<T>::mostrarMejoresVentas() {
 	// Primero se ordena la lista...
 	this->ordenar_Lista_Mayor_A_Menor();
@@ -209,8 +254,10 @@ string ContenedorT<T>::mostrarProductosDeCategoria(string cat) {
 	if (isEmpty()) {
 		return "Lista vacia";
 	}
-	while (exo != nullptr && cat == exo->obtenerInfo()->getCategoria()) { // Sobrecarga de igualdad en Producto... No necesaria, pese a ser templates se puede obtener sus metodos
-		s << exo->obtenerInfo()->toString(); // Sobrecarga de Operador No Miembro de Salida en Producto... Falto al final el toString para que salieran los datos
+	while (exo != nullptr) {
+		if (cat == exo->obtenerInfo()->getCategoria()) {
+			s << exo->obtenerInfo()->toString();
+		}
 		exo = exo->getSigNodo();
 	}
 	return s.str();

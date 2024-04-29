@@ -32,6 +32,11 @@ void MiniSuper::ingresaProducto(Producto* p)
     listaProd->ingresaElemento(p);
 }
 
+void MiniSuper::eliminarProd(string c)
+{
+    listaProd->eliminarProd(c);
+}
+
 string MiniSuper::getListaProd()
 {
     stringstream s;

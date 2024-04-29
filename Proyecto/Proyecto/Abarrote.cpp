@@ -16,10 +16,31 @@ string Abarrote::esNacional() const {
 	if (nacional) return " Si";
 	else return " No";
 }
+string Abarrote::getCodigo() { return codigo; }
+string Abarrote::getNombre_Comercial() { return nombre_Comercial; }
+string Abarrote::getDescripcion() { return descripcion; }
+double Abarrote::getPrecio_Costo() const { return precio_Costo; }
+string Abarrote::getCategoria() { return categoria; }
+int Abarrote::getExistencia() { return existencia; }
+int Abarrote::getLimite() { return limite; }
+Fecha* Abarrote::getFecha_Ingresada() { return fechaPtr; }
+
+void Abarrote::setCodigo(string nuevoCodigo) { codigo = nuevoCodigo; }
+void Abarrote::setNombre_Comercial(string nuevoNombre) { nombre_Comercial = nuevoNombre; }
+void Abarrote::setDescripcion(string nuevaDescripcion) { descripcion = nuevaDescripcion; }
+void Abarrote::setPrecio_costo(double nuevoPrecio) { precio_Costo = nuevoPrecio; }
+void Abarrote::setCategoria(string nuevaCategoria) { categoria = nuevaCategoria; }
+void Abarrote::setExistencia(int nuevaExistencia) { existencia = nuevaExistencia; }
+void Abarrote::setLimite(int nuevolimite) { limite = nuevolimite; }
+void Abarrote::setFecha_Ingresada(Fecha* nuevaFecha) { fechaPtr = nuevaFecha; }
+
+double Abarrote::obtenerPorcentajeGanancia() const {
+	return this->getPrecio_Costo() * cat->porceGanancia(this->categoria);
+}
 
 string Abarrote::toString() const {
 	stringstream salida;
-	salida << "======== PRODUCTO ABARROTE PERECEDERO ========" << endl
+	salida << "======== Abarrote ABARROTE PERECEDERO ========" << endl
 		<< "Codigo            : " << codigo << endl
 		<< "Nombre Comercial  : " << nombre_Comercial << endl
 		<< "Descripcion       : " << descripcion << endl
@@ -29,7 +50,7 @@ string Abarrote::toString() const {
 		<< "Existencias       : " << existencia << endl
 		<< "Limite Existencias: " << limite << endl
 		<< "Fecha de Ingreso  : " << fechaPtr->mostrar_Fecha() << endl
-		<< "Producto Nacional : " << this->esNacional() << endl
+		<< "Abarrote Nacional : " << this->esNacional() << endl
 		<< "Peso              : " << peso << endl
 		<< "Vence             : " << vencimiento->Vence() << endl
 		<< "Nombre de Empresa : " << nombreEmpresa << endl

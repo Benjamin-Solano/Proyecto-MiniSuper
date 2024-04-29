@@ -22,32 +22,32 @@ public:
 
 	virtual ~Producto();
 
-	string getCodigo();
-	string getNombre_Comercial();
-	string getDescripcion();
-	double getPrecio_Costo() const ;
-	string getCategoria();
-	int getExistencia();
-	int getLimite();
-	Fecha* getFecha_Ingresada();
+	virtual string getCodigo() = 0;
+	virtual string getNombre_Comercial() = 0;
+	virtual double getPrecio_Costo() const = 0;
+	virtual string getCategoria() = 0;
+	virtual int getExistencia() = 0;
+	virtual int getLimite() = 0;
+	virtual string getDescripcion() = 0;
+	virtual Fecha* getFecha_Ingresada() = 0;
 
-	void setCodigo(string);
-	void setNombre_Comercial(string);
-	void setDescripcion(string);
-	void setPrecio_costo(double);
-	void setCategoria(string);
-	void setExistencia(int);
-	void setLimite(int);
-	void setFecha_Ingresada(Fecha*);
+	virtual void setCodigo(string) = 0;
+	virtual void setNombre_Comercial(string) = 0;
+	virtual void setDescripcion(string) = 0;
+	virtual void setPrecio_costo(double) = 0;
+	virtual void setCategoria(string) = 0;
+	virtual void setExistencia(int) = 0;
+	virtual void setLimite(int) = 0;
+	virtual void setFecha_Ingresada(Fecha*) = 0;
 
-	virtual double obtenerPorcentajeGanancia() const;
+	virtual double obtenerPorcentajeGanancia() const = 0;
 
 	virtual string toString() const = 0;
 
 	// Sobrecarga de Operador de Igualdad...
-	bool operator == (const Producto& obj2) {
+	/*bool operator == (const Producto& obj2) {
 		return this->categoria == obj2.categoria;
-	}
+	}*/
 
 	// Sobrecarga de Operador No Miembro de Salida de datos...
 	/* virtual friend ostream& operator << (ostream& sal, const Producto& obj) = 0; */

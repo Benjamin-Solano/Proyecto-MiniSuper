@@ -14,9 +14,9 @@ public:
 	static Producto* ingresoConserva();
 	static Producto* ingresoAbarrote();
 	static Producto* ingresoEmbutido();
+
 	// Ventas
 	static void menuVenta(MiniSuper&);
-	static void crearFactura();
 	// Reportes 
 	static int menuReportes();
 	static void muestraListaProd(MiniSuper&);

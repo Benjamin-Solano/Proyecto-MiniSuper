@@ -115,7 +115,7 @@ void Controladora::controlMantenimiento1()
 
 void Controladora::controlMantenimiento2()
 {
-
+	Vista::ElimProd(*miniS);
 }
 void Controladora::controlMantenimiento3()
 {

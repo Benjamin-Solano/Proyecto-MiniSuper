@@ -43,8 +43,8 @@ void Vista::ElimProd(MiniSuper& m)
 {
     string cod = "";
     cout << "======== ELIMINACION DE PRODUCTO ========" << endl;
-    cout << "Digite el codigo del producto: "; cin >> cod;
-    // m.EliminarProducto(cod);
+    cout << "Digite el codigo / nombre comercial, del producto : "; cin >> cod;
+    m.eliminarProd(cod);
 
 }
 
@@ -53,7 +53,7 @@ void Vista::ActuProd(MiniSuper& m)
     string cod = "";
     cout << "======== ACTUALIZACION DE PRODUCTO ========" << endl;
     cout << "Digite el codigo del producto: "; cin >> cod;
-    // m.ActualizarProcto()
+    // m.actualizarProd()
 }
 
 Producto* Vista::ingresoConserva()
@@ -171,11 +171,6 @@ void Vista::menuVenta(MiniSuper& m)
    
 }
 
-void Vista::crearFactura()
-{
-
-}
-
 int Vista::menuReportes()
 {
     int opR = 0;
@@ -200,8 +195,13 @@ void Vista::muestraListaProd(MiniSuper& m)
 
 void Vista::muestraProdCategoria(MiniSuper&m)
 {
-    string cat;
-    cout << "Ingrese Categoria: "; cin >> cat; cin.clear(); cin.ignore();
+    string cat = "";
+    cout << "Ingrese Categoria: " << endl; 
+    cout << "Categoria #1" << endl;
+    cout << "Categoria #2" << endl;
+    cout << "Categoria #3" << endl;
+    cin.clear(); cin.ignore();
+    getline(cin, cat);
     cout << "/========== Mostrando productos por Categoria =========/" << endl;
     cout << m.getProdCate(cat) << endl;
     cout << "/======================================================/" << endl;
