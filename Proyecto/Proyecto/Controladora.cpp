@@ -35,7 +35,7 @@ void Controladora::control0()
 			controlReportes();
 			system("cls");
 			break;
-		case 5:
+		case 4:
 			despedida();
 			break;
 		default:

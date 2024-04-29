@@ -64,3 +64,7 @@ string MiniSuper::getProdMenorLimit()
     s << listaProd->productosMenorALim() << endl;
     return s.str();
 }
+
+void MiniSuper::actualizarProd(string cod, string nomC,string des,double precioCosto,int existencia, int lim){
+    listaProd->actualizar(cod, nomC, des, precioCosto, existencia, lim); 
+}

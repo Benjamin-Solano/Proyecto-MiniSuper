@@ -2,6 +2,7 @@
 #include "Controladora.h"
 
 int main() {
+	system("color 81");
 	Controladora* CO = new Controladora;
 	CO->control0();
 	delete CO;

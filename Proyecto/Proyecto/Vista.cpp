@@ -53,7 +53,18 @@ void Vista::ActuProd(MiniSuper& m)
     string cod = "";
     cout << "======== ACTUALIZACION DE PRODUCTO ========" << endl;
     cout << "Digite el codigo del producto: "; cin >> cod;
-    // m.actualizarProd()
+
+    string nomC, des;
+    double precioCosto;
+    int existencia, lim;
+    cin.clear();  cin.ignore();
+    cout << "Ingrese el nombre comercial   : "; getline(cin, nomC);
+    cout << "Ingrese la descripcion de este: "; getline(cin, des);
+    cout << "Ingrese el precio             : "; cin >> precioCosto;
+    cout << "Digite su existencia          : "; cin >> existencia;
+    cout << "Digite su limite              : "; cin >> lim;
+
+    m.actualizarProd(cod,nomC,des,precioCosto,existencia,lim);
 }
 
 Producto* Vista::ingresoConserva()
@@ -158,17 +169,40 @@ Producto* Vista::ingresoEmbutido()
     return new Embutido(cod, nomP, des, pre, exis, lim, ingreso, nac, pes, vence, nomA, parA, mar, empaque);
 }
 
+// METODO INCOMPLETO... 
 void Vista::menuVenta(MiniSuper& m)
 {
     string ced = "";
+    string nom = "";
     string cod = "";
-    int cant = 0;
-    int opVe = 0;
+    int dc, mc, ac;
+    int op1 = 1;
+
+
     cout << "======= GENERANDO UNA FACTURA =======" << endl;
     cout << "Digite la cedula del cliente   : "; cin >> ced;
-    cout << "Digite codigo del producto     : "; cin >> cod;
-    cout << "Digite la cantidad del producto: "; cin >> cant;
-   
+    cout << "Digite el nombre del cliente   : "; cin >> nom;
+    Cliente* cliente = new Cliente(nom, ced);
+    cout << "Digite el dia de compra        : "; cin >> dc;
+    cout << "Digite el mes de compra        : "; cin >> mc;
+    cout << "Digite el anio de compra       : "; cin >> ac;
+    Fecha* fecha = new Fecha(dc, mc, ac);
+
+    cout << "Realizar compra? Si/1 , No/0   : "; cin >> op1;
+    Carrito* carrito = new Carrito();
+
+    while (op1 == 1) {
+
+        // Metodo incompleto....
+
+        cout << "Ingrese el codigo del producto a comprar: "; cin >> cod;
+        ProductoAbs* compra = nullptr;
+        //compra->conmutar(m.getListaProd()->tomarProducto(cod));
+
+    }
+
+    Venta* venta = new Venta(cliente, fecha, nullptr);
+    m.ingresaVenta(venta);
 }
 
 int Vista::menuReportes()
@@ -230,7 +264,7 @@ void Vista::reporteMejoresClientes(MiniSuper& m)
 void Vista::despedida()
 {
     cout << "-----------------------> CREADORES <----------------------" << endl;
-    cout << "Benjamin ...." << endl;
-    cout << "Lesber...." << endl;
+    cout << "Benjamin Alexander Solano Ortega" << endl;
+    cout << "Lesber Huerta Cornejo" << endl;
     cout << "-----------------> GRACIAS POR UTILIZAR <-----------------" << endl;
 }

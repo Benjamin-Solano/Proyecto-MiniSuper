@@ -24,6 +24,16 @@ public:
 	string productosMenorALim();
 	Nodo<T>* getValor(string);
 	bool eliminarProd(string);
+	void actualizar(string, string, string, double, int, int);
+
+	// Metodo Auxiliar
+	Producto* tomarProducto(string cod) const {
+		Nodo<T>* exo = primerNodo;
+		while (exo) {
+			if (exo->obtenerInfo()->getCodigo() == cod)	return exo->obtenerInfo();
+			else exo = exo->getSigNodo();
+		}
+	}
 
 	friend ostream& operator << (ostream& out, const ContenedorT<T>& c) {
 		Nodo<T>* act = c.primerNodo;
@@ -261,4 +271,16 @@ string ContenedorT<T>::mostrarProductosDeCategoria(string cat) {
 		exo = exo->getSigNodo();
 	}
 	return s.str();
+}
+
+template <class T>
+void ContenedorT<T>::actualizar(string cod, string nomC, string des, double precioCosto, int existencia, int lim){
+	Nodo<T>* exo = this->getValor(cod);
+
+	exo->obtenerInfo()->setCodigo(cod);
+	exo->obtenerInfo()->setNombre_Comercial(nomC);
+	exo->obtenerInfo()->setDescripcion(des);
+	exo->obtenerInfo()->setPrecio_costo(precioCosto);
+	exo->obtenerInfo()->setExistencia(existencia);
+	exo->obtenerInfo()->setLimite(lim);
 }
